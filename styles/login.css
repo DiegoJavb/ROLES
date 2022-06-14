@@ -4,20 +4,31 @@
 }
 
 body {
-    background-color: #d07979;
+    background-color: #000000;
+}
+
+input {
+    width: 300px;
 }
 
 .contenedor {
-    width: 100%;
-    height: 100%;
-    transform: translateY(50%);
-}
-
-.formulario {
     position: absolute;
     top: 50%;
     left: 50%;
-    -ms-transform: translate(-50%, 50%);
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
+}
+
+form {
+    padding-top: 20px;
+}
+
+.formulario {
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(82, 193, 156, 0.5);
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
 
 }
