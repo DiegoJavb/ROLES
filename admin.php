@@ -17,6 +17,9 @@
         </header>
     </div>
     <h2>Felicidades usted ha ingresado como administrador</h2>
+    <div>
+        <a href="close.php">Cerrar sesion</a>
+    </div>
 </body>
 
 </html>
